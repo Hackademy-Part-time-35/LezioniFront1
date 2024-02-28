@@ -22,3 +22,13 @@ alias:
 # files
 touch (crea un file)
 cat stampa in output il contenuto di un file (lettura)
+
+
+# vim (editor di testo)
+
+2 modalità:
+- command mode (insert -> command premere i tasti esc e poi :)
+- insert mode (command -> insert premere il tasto i) in questa modalita posso scrivere nel mio file
+
+:wq (write + quit)
+:q! (quit forzato)
