@@ -8,6 +8,9 @@
 <body>
 
 
+
+    <p>ciao <mark>valerio</mark></p>
+
     <form >
         <label for="firstnameInput">nome</label>
         <input id="firstnameInput" type="text" name="firstname">
@@ -18,11 +21,22 @@
         <label for="termsInput">Accetta termini e condizioni</label>
         <input id="termsInput" type="checkbox" name="terms" value="true">
 
+        <!--
         <label for="genderMaleInput">Male</label>
         <input id="genderMaleInput" type="radio" name="gender" value="male" >
 
         <label for="genderFemaleInput">Female</label>
         <input id="genderFemaleInput" type="radio" name="gender" value="female">
+        -->
+
+        <select name="gender">
+            <option value="" selected>Non Specificato</option>
+            <option value="male">Uomo</option>
+            <option value="female">Donna</option>
+        </select>
+
+        <label for="notesInput">Note Aggiuntive</label>
+        <textarea name="notes" id="notesInput" cols="30" rows="10"></textarea>
 
         <input type="submit">
     </form>
