@@ -1,0 +1,48 @@
+/********** XS - MOBILE PORTAIT *********/
+
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(1 / 12 * 100%);
+}
+
+.col-2 {
+    width: calc(2 / 12 * 100%);
+}
+
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+
+.col-12 {
+    width: calc(12 / 12 * 100%);
+}
+
+.offset-3 {
+    margin-left: calc(3 / 12 * 100%);
+}
+*/
+
+@media screen and (min-width: 576px) {      /********** sm - MOBILE LANDSCAPE *********/
+ 
+}
+
+@media screen and (min-width: 768px) {      /********** md - TABLET PORTAIT  *********/
+    
+}
+
+@media screen and (min-width: 992px) {      /********** lg - TABLET LANDSCAPE and PC 1280 x 720 *********/
+
+}
+
+@media screen and (min-width: 1200px) {      /********** xl - PC  *********/
+
+}
+
+@media screen and (min-width: 1400px) {      /********** xxl - PC 1920 x 1080, SMART TV *********/
+
+}
