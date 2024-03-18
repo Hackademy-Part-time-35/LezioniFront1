@@ -1,3 +1,38 @@
-.masthead {
-    padding: 5rem;
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 1rem 3rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > li {
+    margin-left: 0.7rem;
+    font-size: 1.5rem;
+
+    list-style: none;
+}
+
+.menu > li > a {
+    color: black;
+}
+
+.logo {
+    width: 128px;
+    height: auto;
 }
