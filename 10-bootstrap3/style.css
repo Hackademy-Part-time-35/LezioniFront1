@@ -1,25 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    width: 50%;
-
-    background-color: #404040;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.masthead {
+    padding: 5rem;
 }
