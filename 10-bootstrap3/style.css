@@ -1,5 +1,5 @@
 :root {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 * {
@@ -8,31 +8,29 @@
     padding: 0;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
+/*
+    em, usato come unità di misura per il font-size, indica di quanto moltiplicare
+    il valore del font-size ereditato per ottenere il font-size dell'elemento target
 
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    padding: 1rem 3rem;
+    em, usato come unità di misura per la spaziatura del testo, indica di quanto moltiplicare
+    il valore del font-size dell'elemento target per ottenere il valore del text-spacing dell'elemento target
+
+
+    rem root em
+*/
+
+/*
+text-spacing:
+    word-spacing    intorno a 0.25em
+    letter-spacing [0.1em, 0.2em]
+    line-height [1.4em, 1.5em]
+*/
+
+h1 {
+    font-size: 2rem;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.menu > li {
-    margin-left: 0.7rem;
-    font-size: 1.5rem;
-
-    list-style: none;
-}
-
-.menu > li > a {
-    color: black;
-}
-
-.logo {
-    width: 128px;
-    height: auto;
+p {
+    font-size: 1.25rem;
+    line-height: 1.5em;
 }
